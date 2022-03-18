@@ -21,10 +21,10 @@
         <!-- // LOGO -->
         <!-- NAVIGATION -->
         <nav class="nav text-xl hidden md:block">
-          <a class="inline-block px-4 text-teal-200 underline" href="#">Home</a>
-          <a class="inline-block px-4 text-teal-100" href="#">About</a>
-          <a class="inline-block px-4 text-teal-100" href="#">Features</a>
-          <a class="inline-block px-4 text-teal-100" href="#">Opinions</a>
+          <a class="inline-block px-4 text-teal-200 underline" href="#home">Home</a>
+          <a class="inline-block px-4 text-teal-100" href="#about">About</a>
+          <a class="inline-block px-4 text-teal-100" href="#features">Features</a>
+          <a class="inline-block px-4 text-teal-100" href="#contact">Contact</a>
         </nav>
         <!-- // NAVIGATION -->
         <!-- MOBILE NAVIGATION BUTTON -->
@@ -37,10 +37,10 @@
         <!-- // MOBILE NAVIGATION BUTTON -->
       </div>
       <nav class="mobile-nav text-2xl py-4 text-center hidden md:hidden">
-        <a class="block py-4 text-teal-200 underline" href="#">Home</a>
-        <a class="block py-4 text-teal-100" href="#">About</a>
-        <a class="block py-4 text-teal-100" href="#">Features</a>
-        <a class="block py-4 text-teal-100" href="#">Opinions</a>
+        <a class="block py-4 text-teal-200 underline" href="#home">Home</a>
+        <a class="block py-4 text-teal-100" href="#about">About</a>
+        <a class="block py-4 text-teal-100" href="#features">Features</a>
+        <a class="block py-4 text-teal-100" href="#contact">Contact</a>
       </nav>
     </header>
     <!-- // HEADER -->
@@ -59,19 +59,34 @@
             <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full font-semibold mb-3 sm:mb-0">
               <span>Buy now</span>
             </button>
-            <button class="underline">Learn more</button>
+            <button class="underline font font-semibold">Learn more</button>
           </div>
         </div>
       </section>
       <!-- // HERO SECTION -->
+      <!-- TEXT CENTER -->
+      <section class="text-center mb-6" id="about">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
+          <h2 class="text-white text-4xl md:text-6xl font-bold mb-6">About us</h2>
+          <p class="text-md lg:text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente ex
+            optio id eum
+            asperiores
+            suscipit, hic rerum deleniti quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam minima unde
+            doloribus culpa ipsa maiores nobis accusantium. Ipsum ipsam voluptates harum maxime facere. Voluptatem,
+            similique.</p>
+        </div>
+      </section>
+      <!-- // TEXT CENTER -->
       <!-- IMG LEFT -->
       <section class="mb-12 img-left">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row md:space-x-4 lg:space-x-8">
+        <div
+          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col items-center md:flex-row md:space-x-4 lg:space-x-8">
           <div class="w-full md:w-1/2">
             <img class="rounded-lg" src="https://via.placeholder.com/600x400" alt="Image 1">
           </div>
           <div class="w-full md:w-1/2 my-4">
-            <h2 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image left</h2>
+            <h3 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image left</h3>
             <p class="text-md lg:text-lg text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur
               obcaecati minima
@@ -85,12 +100,12 @@
       <!-- IMG RIGHT -->
       <section class="mb-12 img-right">
         <div
-          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row-reverse md:space-x-4 lg:space-x-8">
+          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col items-center md:flex-row-reverse md:space-x-4 lg:space-x-8">
           <div class="w-full md:w-1/2">
             <img class="rounded-lg" src="https://via.placeholder.com/600x400" alt="Image 1">
           </div>
           <div class="w-full md:w-1/2 my-4">
-            <h2 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image right</h2>
+            <h3 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image right</h3>
             <p class="text-md lg:text-lg text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur
               obcaecati minima
@@ -101,14 +116,65 @@
         </div>
       </section>
       <!-- // IMG RIGHT -->
+      <!-- TEXT CENTER -->
+      <section class="text-center mb-6" id="features">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
+          <h2 class="text-white text-4xl md:text-6xl font-bold mb-6">Features</h2>
+          <p class="text-md lg:text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente ex
+            optio id eum
+            asperiores
+            suscipit, hic rerum deleniti quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam minima unde
+            doloribus culpa ipsa maiores nobis accusantium. Ipsum ipsam voluptates harum maxime facere. Voluptatem,
+            similique.</p>
+        </div>
+      </section>
+      <!-- // TEXT CENTER -->
       <!-- FEATURES -->
-      <section class="features">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8"></div>
+      <section class="mb-12 features">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row md:space-x-12 items-center">
+          <div class="w-full sm:w-2/3 md:w-1/3 mb-8 text-center md:mb-0">
+            <figure class="mb-3"><img src="https://via.placeholder.com/600x400" alt=""></figure>
+            <h4 class="text-2xl mb-2 text-teal-200 font-bold">Feature 1</h4>
+            <p class="text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, incidunt? Quam,
+              rem. Sint dicta eaque
+              incidunt?</p>
+          </div>
+          <div class="w-full sm:w-2/3 md:w-1/3 mb-8 text-center md:mb-0">
+            <figure class="mb-3"><img src="https://via.placeholder.com/600x400" alt=""></figure>
+            <h4 class="text-2xl mb-2 text-teal-200 font-bold">Feature 1</h4>
+            <p class="text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, incidunt? Quam,
+              rem. Sint dicta eaque
+              incidunt?</p>
+          </div>
+          <div class="w-full sm:w-2/3 md:w-1/3 mb-8 text-center md:mb-0">
+            <figure class="mb-3"><img src="https://via.placeholder.com/600x400" alt=""></figure>
+            <h4 class="text-2xl mb-2 text-teal-200 font-bold">Feature 1</h4>
+            <p class="text-gray-400">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi, incidunt? Quam,
+              rem. Sint dicta eaque
+              incidunt?</p>
+          </div>
+        </div>
       </section>
       <!-- // FEATURES -->
+      <!-- TEXT CENTER -->
+      <section class="text-center mb-6" id="contact">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
+          <h3 class="text-white text-4xl md:text-6xl font-bold mb-6">Contact us</h3>
+          <p class="text-md lg:text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente ex
+            optio id eum
+            asperiores
+            suscipit, hic rerum deleniti quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam minima unde
+            doloribus culpa ipsa maiores nobis accusantium. Ipsum ipsam voluptates harum maxime facere. Voluptatem,
+            similique.</p>
+        </div>
+      </section>
+      <!-- // TEXT CENTER -->
       <!-- IMG LEFT WITH CTA -->
-      <section class="img-left" id="about">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row md:space-x-4 lg:space-x-8">
+      <section class="img-left">
+        <div
+          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col items-center md:flex-row md:space-x-4 lg:space-x-8">
           <div class="w-full md:w-1/2">
             <img class="rounded-lg" src="https://via.placeholder.com/600x400" alt="Image 1">
           </div>
@@ -130,7 +196,6 @@
         </div>
       </section>
       <!-- // IMG LEFT WITH CTA -->
-
     </main>
     <!-- // MAIN -->
     <!-- FOOTER -->
