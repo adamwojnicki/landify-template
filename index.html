@@ -1,99 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landify</title>
-  </head>
 
-  <body>
-    <!-- CONTAINER -->
-    <div class="bg-gray-800 min-h-screen">
-      <!-- HEADER -->
-      <header class="header bg-gray-900">
-        <div
-          class="container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-8"
-        >
-          <!-- LOGO -->
-          <div class="logo">
-            <h1 class="text-4xl text-teal-200">Landify</h1>
-          </div>
-          <!-- // LOGO -->
-          <!-- NAVIGATION -->
-          <nav class="nav text-xl hidden md:block">
-            <a class="inline-block px-4 text-teal-200 underline" href="#"
-              >Home</a
-            >
-            <a class="inline-block px-4 text-teal-100" href="#">About</a>
-            <a class="inline-block px-4 text-teal-100" href="#">Features</a>
-            <a class="inline-block px-4 text-teal-100" href="#">Opinions</a>
-          </nav>
-          <!-- // NAVIGATION -->
-          <!-- MOBILE NAVIGATION BUTTON -->
-          <button class="mobile-btn block md:hidden text-teal-200">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-10 w-10"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </button>
-          <!-- // MOBILE NAVIGATION BUTTON -->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landify</title>
+</head>
+
+<body>
+  <!-- CONTAINER -->
+  <div class="bg-gray-800 min-h-screen">
+    <!-- HEADER -->
+    <header class="header bg-gray-900">
+      <div class="container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-8">
+        <!-- LOGO -->
+        <div class="logo">
+          <h1 class="text-4xl text-teal-200 font-bold">Landify</h1>
         </div>
-        <nav class="mobile-nav text-2xl py-4 text-center hidden md:hidden">
-          <a class="block py-4 text-teal-200 underline" href="#">Home</a>
-          <a class="block py-4 text-teal-100" href="#">About</a>
-          <a class="block py-4 text-teal-100" href="#">Features</a>
-          <a class="block py-4 text-teal-100" href="#">Opinions</a>
+        <!-- // LOGO -->
+        <!-- NAVIGATION -->
+        <nav class="nav text-xl hidden md:block">
+          <a class="inline-block px-4 text-teal-200 underline" href="#">Home</a>
+          <a class="inline-block px-4 text-teal-100" href="#">About</a>
+          <a class="inline-block px-4 text-teal-100" href="#">Features</a>
+          <a class="inline-block px-4 text-teal-100" href="#">Opinions</a>
         </nav>
-      </header>
-      <!-- // HEADER -->
-      <!-- MAIN -->
-      <main class="main">
-        <!-- HERO SECTION -->
-        <section class="hero" id="home">
-          <div
-            class="container lg:max-w-6xl mx-auto py-4 px-8 min-h-[400px] flex flex-col justify-center items-center text-center"
-          >
-            <h1 class="text-8xl text-white mb-6 font-bold">Main title</h1>
-            <p class="text-2xl text-teal-200 mb-12">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
-              incidunt.
-            </p>
-            <div class="flex space-x-4 text-xl">
-              <button class="bg-teal-200 px-6 py-2 rounded-full">
-                Buy now
-              </button>
-              <button class="text-white underline">Learn more</button>
-            </div>
+        <!-- // NAVIGATION -->
+        <!-- MOBILE NAVIGATION BUTTON -->
+        <button class="mobile-btn block md:hidden text-teal-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+        <!-- // MOBILE NAVIGATION BUTTON -->
+      </div>
+      <nav class="mobile-nav text-2xl py-4 text-center hidden md:hidden">
+        <a class="block py-4 text-teal-200 underline" href="#">Home</a>
+        <a class="block py-4 text-teal-100" href="#">About</a>
+        <a class="block py-4 text-teal-100" href="#">Features</a>
+        <a class="block py-4 text-teal-100" href="#">Opinions</a>
+      </nav>
+    </header>
+    <!-- // HEADER -->
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO SECTION -->
+      <section class="hero text-white mb-12" id="home">
+        <div
+          class="container lg:max-w-6xl mx-auto py-4 px-8 min-h-[600px] flex flex-col justify-center items-center text-center">
+          <h1 class="text-8xl mb-6 font-bold">Main title</h1>
+          <p class="text-2xl text-teal-200 mb-12">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+            incidunt.
+          </p>
+          <div class="flex space-x-4 text-xl">
+            <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full">
+              <span>Buy now</span>
+            </button>
+            <button class="underline">Learn more</button>
           </div>
-        </section>
-        <!-- // HERO SECTION -->
-        <!-- TEXT RIGHT -->
-        <!-- // TEXT RIGHT -->
-        <!-- TEXT RIGHT -->
-        <!-- // TEXT RIGHT -->
-        <!-- TEXT LEFT -->
-        <!-- // TEXT LEFT -->
-        <!-- FEATURES -->
-        <!-- // FEATURES -->
-      </main>
-      <!-- // MAIN -->
-      <!-- FOOTER -->
-      <footer class="footer"></footer>
-      <!-- // FOOTER -->
-    </div>
-    <!-- // CONTAINER -->
+        </div>
+      </section>
+      <!-- // HERO SECTION -->
+      <!-- IMG LEFT -->
+      <section class="img-left" id="about">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-row justify-center">
+          <div class="w-1/2">
+            <img src="https://via.placeholder.com/600x400" alt="Image 1">
+          </div>
+          <div class="w-1/2 px-8 py-6">
+            <h2 class="text-5xl mb-12 text-teal-200">Image left</h2>
+            <p class="text-xl text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+              obcaecati minima
+              iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
+              quia, odit eum fuga, dignissimos aspernatur. Eius temporibus incidunt dignissimos voluptates aspernatur
+              impedit quod ea, nisi nihil.</p>
+          </div>
+        </div>
+      </section>
+      <!-- // IMG LEFT -->
+      <!-- IMG RIGHT -->
+      <section class="img-left" id="about">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-row-reverse justify-center">
+          <div class="w-1/2">
+            <img src="https://via.placeholder.com/600x400" alt="Image 1">
+          </div>
+          <div class="w-1/2 px-8 py-6">
+            <h2 class="text-5xl mb-12 text-teal-200">Image right</h2>
+            <p class="text-xl text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+              obcaecati minima
+              iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
+              quia, odit eum fuga, dignissimos aspernatur. Eius temporibus incidunt dignissimos voluptates aspernatur
+              impedit quod ea, nisi nihil.</p>
+          </div>
+        </div>
+      </section>
+      <!-- // IMG RIGHT -->
+      <!-- IMG LEFT WITH CTA -->
+      <section class="img-left" id="about">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-row justify-center">
+          <div class="w-1/2">
+            <img src="https://via.placeholder.com/600x400" alt="Image 1">
+          </div>
+          <div class="w-1/2 px-8 py-6">
+            <h2 class="text-5xl mb-12 text-teal-200">Image right with CTA</h2>
+            <p class="text-xl text-gray-400 mb-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+              obcaecati minima
+              iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
+              quia, odit eum fuga, dignissimos aspernatur.</p>
+            <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+              <span class="ml-2">Contact us</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- // IMG LEFT WITH CTA -->
+      <!-- FEATURES -->
+      <!-- // FEATURES -->
+    </main>
+    <!-- // MAIN -->
+    <!-- FOOTER -->
+    <footer class="footer"></footer>
+    <!-- // FOOTER -->
+  </div>
+  <!-- // CONTAINER -->
 
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
