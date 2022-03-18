@@ -50,13 +50,13 @@
       <section class="hero text-white mb-12" id="home">
         <div
           class="container lg:max-w-6xl mx-auto py-4 px-8 min-h-[600px] flex flex-col justify-center items-center text-center">
-          <h1 class="text-8xl mb-6 font-bold">Main title</h1>
+          <h1 class="text-6xl md:text-8xl mb-6 font-bold">Welcome!</h1>
           <p class="text-2xl text-teal-200 mb-12">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
             incidunt.
           </p>
-          <div class="flex space-x-4 text-xl">
-            <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full">
+          <div class="flex flex-col sm:flex-row sm:space-x-4 text-xl">
+            <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full font-semibold mb-3 sm:mb-0">
               <span>Buy now</span>
             </button>
             <button class="underline">Learn more</button>
@@ -65,14 +65,16 @@
       </section>
       <!-- // HERO SECTION -->
       <!-- IMG LEFT -->
-      <section class="img-left" id="about">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-row justify-center">
-          <div class="w-1/2">
-            <img src="https://via.placeholder.com/600x400" alt="Image 1">
+      <section class="img-left">
+        <div
+          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row justify-center items-center md:space-x-4 lg:space-x-8">
+          <div class="w-full md:w-1/2">
+            <img class="rounded-lg" src="https://via.placeholder.com/600x400" alt="Image 1">
           </div>
-          <div class="w-1/2 px-8 py-6">
-            <h2 class="text-5xl mb-12 text-teal-200">Image left</h2>
-            <p class="text-xl text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+          <div class="w-full md:w-1/2 my-6">
+            <h2 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image left</h2>
+            <p class="text-md lg:text-lg text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur
               obcaecati minima
               iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
               quia, odit eum fuga, dignissimos aspernatur. Eius temporibus incidunt dignissimos voluptates aspernatur
@@ -82,14 +84,16 @@
       </section>
       <!-- // IMG LEFT -->
       <!-- IMG RIGHT -->
-      <section class="img-left" id="about">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-row-reverse justify-center">
-          <div class="w-1/2">
-            <img src="https://via.placeholder.com/600x400" alt="Image 1">
+      <section class="img-right">
+        <div
+          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row-reverse justify-center items-center">
+          <div class="w-full md:w-1/2">
+            <img class="rounded-lg" src="https://via.placeholder.com/600x400" alt="Image 1">
           </div>
-          <div class="w-1/2 px-8 py-6">
-            <h2 class="text-5xl mb-12 text-teal-200">Image right</h2>
-            <p class="text-xl text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+          <div class="w-full md:w-1/2 md:mx-3 lg:mx-8 my-6">
+            <h2 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image right</h2>
+            <p class="text-md lg:text-lg text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur
               obcaecati minima
               iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
               quia, odit eum fuga, dignissimos aspernatur. Eius temporibus incidunt dignissimos voluptates aspernatur
@@ -98,19 +102,25 @@
         </div>
       </section>
       <!-- // IMG RIGHT -->
+      <!-- FEATURES -->
+      <section class="features">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8"></div>
+      </section>
+      <!-- // FEATURES -->
       <!-- IMG LEFT WITH CTA -->
       <section class="img-left" id="about">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-row justify-center">
-          <div class="w-1/2">
-            <img src="https://via.placeholder.com/600x400" alt="Image 1">
+        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row justify-center items-center">
+          <div class="w-full md:w-1/2">
+            <img class="rounded-lg" src="https://via.placeholder.com/600x400" alt="Image 1">
           </div>
-          <div class="w-1/2 px-8 py-6">
-            <h2 class="text-5xl mb-12 text-teal-200">Image right with CTA</h2>
-            <p class="text-xl text-gray-400 mb-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur
+          <div class="w-full md:w-1/2 md:mx-3 lg:mx-8 my-6">
+            <h2 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image right with CTA</h2>
+            <p class="text-md lg:text-lg text-gray-400 mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur
               obcaecati minima
               iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
               quia, odit eum fuga, dignissimos aspernatur.</p>
-            <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full flex items-center">
+            <button class="bg-teal-200 text-black uppercase px-6 py-2 rounded-full font-semibold flex items-center">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
                 <path
                   d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
@@ -121,8 +131,7 @@
         </div>
       </section>
       <!-- // IMG LEFT WITH CTA -->
-      <!-- FEATURES -->
-      <!-- // FEATURES -->
+
     </main>
     <!-- // MAIN -->
     <!-- FOOTER -->
