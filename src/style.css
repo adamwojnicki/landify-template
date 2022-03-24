@@ -18,10 +18,18 @@ body {
 
 /* COMPONENT STYLES */
 @layer components {
+  /* NAV ITEMS */
   .nav-item {
     @apply text-gray-400;
   }
   .nav-item.active {
     @apply text-teal-200 underline;
+  }
+  /* CTAS */
+  .cta--primary {
+    @apply bg-teal-200 text-black uppercase px-6 py-2 rounded-full font-semibold;
+  }
+  .cta--secondary {
+    @apply underline font-semibold;
   }
 }
