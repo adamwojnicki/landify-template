@@ -26,13 +26,16 @@ body {
     @apply container lg:max-w-6xl mx-auto py-4 px-8;
   }
   .two-cols {
-    @apply section-inner flex flex-col items-center;
+    @apply flex flex-col items-center;
   }
   .two-cols--img-right {
     @apply md:flex-row-reverse md:space-x-4 lg:space-x-8;
   }
   .two-cols--img-left {
     @apply md:flex-row md:space-x-4 lg:space-x-8;
+  }
+  .three-cols {
+    @apply flex flex-col md:flex-row md:space-x-12;
   }
   /* NAV */
   .header-nav {
