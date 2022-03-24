@@ -20,19 +20,19 @@ body {
 @layer components {
   /* SECTION LAYOUT */
   .header-inner {
-    @apply container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-8;
+    @apply container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-4;
   }
   .section-inner {
-    @apply container lg:max-w-6xl mx-auto py-4 px-8;
+    @apply container lg:max-w-6xl mx-auto py-4 px-4;
   }
   .two-cols {
     @apply flex flex-col items-center;
   }
   .two-cols--img-right {
-    @apply md:flex-row-reverse md:space-x-4 lg:space-x-8;
+    @apply md:flex-row-reverse;
   }
   .two-cols--img-left {
-    @apply md:flex-row md:space-x-4 lg:space-x-8;
+    @apply md:flex-row;
   }
   .three-cols {
     @apply flex flex-col md:flex-row md:space-x-12;
