@@ -1,3 +1,27 @@
+/* TAILWIND IMPORTS */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* DOCUMENT SMOOTH SCROLL */
+html,
+body {
+  scroll-behavior: smooth;
+}
+
+/* HERO SECTION STYLES */
+.hero {
+  background: url("./img/space.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+/* COMPONENT STYLES */
+@layer components {
+  .nav-item {
+    @apply text-gray-400;
+  }
+  .nav-item.active {
+    @apply text-teal-200 underline;
+  }
+}
