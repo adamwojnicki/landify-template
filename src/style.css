@@ -18,12 +18,35 @@ body {
 
 /* COMPONENT STYLES */
 @layer components {
+  /* SECTION LAYOUT */
+  .header-inner {
+    @apply container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-8;
+  }
+  .section-inner {
+    @apply container lg:max-w-6xl mx-auto py-4 px-8;
+  }
+  .two-cols {
+    @apply section-inner flex flex-col items-center;
+  }
+  .two-cols--img-right {
+    @apply md:flex-row-reverse md:space-x-4 lg:space-x-8;
+  }
+  .two-cols--img-left {
+    @apply md:flex-row md:space-x-4 lg:space-x-8;
+  }
+  /* NAV */
+  .header-nav {
+    @apply text-xl hidden md:block;
+  }
+  .mobile-nav {
+    @apply text-2xl py-4 text-center hidden md:hidden;
+  }
   /* NAV ITEMS */
   .nav-item {
-    @apply text-gray-400;
+    @apply text-white;
   }
   .nav-item.active {
-    @apply text-teal-200 underline;
+    @apply text-teal-200 underline font-semibold;
   }
   /* CTAS */
   .cta--primary {
@@ -31,5 +54,20 @@ body {
   }
   .cta--secondary {
     @apply underline font-semibold;
+  }
+  /* FEATURE CARD */
+  .feature-card {
+    @apply max-w-sm md:w-1/3 mb-8 text-center md:mb-0;
+  }
+  /* HEADLINES */
+  .headline--primary {
+    @apply text-white text-4xl md:text-6xl font-bold mb-6;
+  }
+  .headline--secondary {
+    @apply text-3xl font-bold lg:text-5xl mb-8 text-teal-200;
+  }
+  /* COPY TEXTS */
+  .copy {
+    @apply lg:text-lg text-gray-400;
   }
 }

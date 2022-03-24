@@ -13,7 +13,7 @@
   <div class="bg-gray-800 min-h-screen relative">
     <!-- HEADER -->
     <header class="header bg-gray-900 sticky top-0">
-      <div class="container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-8">
+      <div class="header-inner">
         <!-- LOGO -->
         <div class="logo">
           <a class="text-4xl text-teal-200 font-bold" href="#">
@@ -22,7 +22,7 @@
         </div>
         <!-- // LOGO -->
         <!-- NAVIGATION -->
-        <nav class="header-nav text-xl hidden md:block">
+        <nav class="header-nav">
           <a class="inline-block px-4 nav-item active" href="#">Home</a>
           <a class="inline-block px-4 nav-item" href="#about">About</a>
           <a class="inline-block px-4 nav-item" href="#features">Features</a>
@@ -39,7 +39,7 @@
         <!-- // MOBILE NAVIGATION BUTTON -->
       </div>
       <!-- MOBILE MENU -->
-      <nav class="mobile-nav text-2xl py-4 text-center hidden md:hidden">
+      <nav class="mobile-nav">
         <a class="block py-4 nav-item" href="#">Home</a>
         <a class="block py-4 nav-item" href="#about">About</a>
         <a class="block py-4 nav-item" href="#features">Features</a>
@@ -52,8 +52,7 @@
     <main class="main">
       <!-- HERO SECTION -->
       <section class="hero text-white" id="home">
-        <div
-          class="container lg:max-w-6xl mx-auto py-4 px-8 min-h-[650px] flex flex-col justify-center items-center text-center">
+        <div class="section-inner min-h-[650px] flex flex-col justify-center items-center text-center">
           <h1 class="text-6xl md:text-8xl mb-6 font-bold">Welcome!</h1>
           <p class="text-lg md:text-2xl text-teal-200 mb-12 font-semibold">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
@@ -70,9 +69,9 @@
       <!-- // HERO SECTION -->
       <!-- TEXT CENTER -->
       <section class="text-center py-12" id="about">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
-          <h2 class="text-white text-4xl md:text-6xl font-bold mb-6">About us</h2>
-          <p class="text-md lg:text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        <div class="section-inner">
+          <h2 class="headline--primary">About us</h2>
+          <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             sapiente ex
             optio id eum
             asperiores
@@ -83,15 +82,14 @@
       </section>
       <!-- // TEXT CENTER -->
       <!-- IMG LEFT -->
-      <section class="pb-12 img-left">
-        <div
-          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col items-center md:flex-row md:space-x-4 lg:space-x-8">
+      <section class="pb-12">
+        <div class="two-cols two-cols--img-left">
           <div class="w-full md:w-1/2">
             <img class="rounded-lg" src="./src/img/conference.jpg" alt="Image 1">
           </div>
           <div class="w-full md:w-1/2 my-4">
-            <h3 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image left</h3>
-            <p class="text-md lg:text-lg text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <h3 class="headline--secondary">Image left</h3>
+            <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur
               obcaecati minima
               iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
@@ -102,15 +100,14 @@
       </section>
       <!-- // IMG LEFT -->
       <!-- IMG RIGHT -->
-      <section class="img-right">
-        <div
-          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col items-center md:flex-row-reverse md:space-x-4 lg:space-x-8">
+      <section>
+        <div class="two-cols two-cols--img-right">
           <div class="w-full md:w-1/2">
             <img class="rounded-lg" src="./src/img/code.jpg" alt="Image 1">
           </div>
           <div class="w-full md:w-1/2 my-4">
-            <h3 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image right</h3>
-            <p class="text-md lg:text-lg text-gray-400">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <h3 class="headline--secondary">Image right</h3>
+            <p class="copy">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur
               obcaecati minima
               iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
@@ -122,9 +119,9 @@
       <!-- // IMG RIGHT -->
       <!-- TEXT CENTER -->
       <section class="text-center py-12" id="features">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
-          <h2 class="text-white text-4xl md:text-6xl font-bold mb-6">Features</h2>
-          <p class="text-md lg:text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        <div class="section-inner">
+          <h2 class="headline--primary">Features</h2>
+          <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             sapiente ex
             optio id eum
             asperiores
@@ -135,9 +132,10 @@
       </section>
       <!-- // TEXT CENTER -->
       <!-- FEATURES -->
-      <section class="features">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col md:flex-row md:space-x-12 items-center">
-          <div class="w-full sm:w-2/3 md:w-1/3 mb-8 text-center md:mb-0">
+      <section>
+        <div class="section-inner flex flex-col md:flex-row md:space-x-12 items-center">
+          <!-- CARD 1 -->
+          <div class="feature-card">
             <figure class="mb-3">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 mx-auto text-teal-100" viewBox="0 0 20 20"
                 fill="currentColor">
@@ -151,7 +149,9 @@
               rem. Sint dicta eaque
               incidunt?</p>
           </div>
-          <div class="w-full sm:w-2/3 md:w-1/3 mb-8 text-center md:mb-0">
+          <!-- // CARD 1 -->
+          <!-- CARD 2 -->
+          <div class="feature-card">
             <figure class="mb-3">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 mx-auto text-teal-100" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -164,7 +164,9 @@
               rem. Sint dicta eaque
               incidunt?</p>
           </div>
-          <div class="w-full sm:w-2/3 md:w-1/3 mb-8 text-center md:mb-0">
+          <!-- // CARD 2 -->
+          <!-- CARD 3 -->
+          <div class="feature-card">
             <figure class="mb-3">
               <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 mx-auto text-teal-100" fill="none"
                 viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
@@ -177,14 +179,15 @@
               rem. Sint dicta eaque
               incidunt?</p>
           </div>
+          <!-- CARD 3 -->
         </div>
       </section>
       <!-- // FEATURES -->
       <!-- TEXT CENTER -->
       <section class="text-center py-12" id="contact">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
-          <h2 class="text-white text-4xl md:text-6xl font-bold mb-6">Contact us</h2>
-          <p class="text-md lg:text-lg text-gray-300">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+        <div class="section-inner">
+          <h2 class="headline--primary">Contact us</h2>
+          <p class="copy">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
             sapiente ex
             optio id eum
             asperiores
@@ -195,15 +198,14 @@
       </section>
       <!-- // TEXT CENTER -->
       <!-- IMG LEFT WITH CTA -->
-      <section class="img-left">
-        <div
-          class="container lg:max-w-6xl mx-auto py-4 px-8 flex flex-col items-center md:flex-row md:space-x-4 lg:space-x-8">
+      <section>
+        <div class="two-cols two-cols--img-left">
           <div class="w-full md:w-1/2">
             <img class="rounded-lg" src="./src/img/phone.jpg" alt="Image 1">
           </div>
           <div class="w-full md:w-1/2 my-4">
-            <h3 class="text-3xl font-bold lg:text-5xl mb-8 text-teal-200">Image right with CTA</h3>
-            <p class="text-md lg:text-lg text-gray-400 mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            <h3 class="headline--secondary">Image right with CTA</h3>
+            <p class="copy mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit.
               Consectetur
               obcaecati minima
               iusto voluptatibus necessitatibus! Enim laboriosam, ratione labore iure nostrum pariatur dolorem mollitia
@@ -225,9 +227,11 @@
     <footer class="footer bg-gray-900 mt-12 text-gray-400 text-lg">
       <div class="container lg:max-w-6xl mx-auto py-4 px-8">
         <div class="logo mb-8">
-          <h1 class="text-4xl text-teal-200 font-bold">Landify</h1>
+          <a class="text-4xl text-teal-200 font-bold" href="#">
+            Landify
+          </a>
         </div>
-        <div class="flex flex-col md:flex-row mb-12">
+        <div class="flex flex-col md:flex-row mb-12 md:space-x-12">
           <div class="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 class="text-2xl font-semibold text-teal-100 mb-3">Get in touch</h3>
             <form action="#">
@@ -242,7 +246,7 @@
               </button>
             </form>
           </div>
-          <div class="w-full md:w-1/3 mb-4 md:mb-0 md:mx-12">
+          <div class="w-full md:w-1/3 mb-4 md:mb-0">
             <h3 class="text-2xl font-semibold text-teal-100 mb-3">Follow us</h3>
 
             <div class="flex space-x-4">
@@ -271,7 +275,7 @@
             </div>
           </div>
           <div class="w-full md:w-1/3">
-            <h3 class="text-2xl font-semibold text-teal-100 mb-3">See also</h3>
+            <h3 class="text-2xl font-semibold text-teal-100 mb-3">Site Map</h3>
             <nav>
               <nav class="footer-nav">
                 <a class="block" href="#">Home</a>
