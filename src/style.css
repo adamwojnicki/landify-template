@@ -1,3 +1,6 @@
+/* G FONTS IMPORTS */
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 /* TAILWIND IMPORTS */
 @tailwind base;
 @tailwind components;
@@ -11,10 +14,15 @@ body {
 
 /* HERO SECTION STYLES */
 .hero {
-  background: url("./img/space.jpg");
+  background: url("./img/space.webp");
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+}
+@media screen and (max-width: 768px) {
+  .hero {
+    background: url("./img/space-mob.webp");
+  }
 }
 
 /* COMPONENT STYLES */
@@ -43,7 +51,7 @@ body {
     @apply text-xl hidden md:block;
   }
   .mobile-nav {
-    @apply text-2xl py-4 text-center hidden md:hidden;
+    @apply text-2xl py-4 text-center md:hidden;
   }
   /* NAV ITEMS */
   .nav-item {
