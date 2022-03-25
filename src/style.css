@@ -62,15 +62,17 @@ body {
   .feature-card {
     @apply max-w-sm md:w-1/3 mb-8 text-center md:mb-0;
   }
-  /* HEADLINES */
+  /* TYPOGRAPHY */
   .headline--primary {
     @apply text-white text-4xl md:text-6xl font-bold mb-6;
   }
   .headline--secondary {
     @apply text-3xl font-bold lg:text-5xl mb-8 text-teal-200;
   }
-  /* COPY TEXTS */
   .copy {
     @apply lg:text-lg text-gray-400;
+  }
+  .footer-subheadline {
+    @apply text-2xl font-semibold text-teal-100 mb-3;
   }
 }

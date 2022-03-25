@@ -1,373 +1,310 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Landify</title>
-  </head>
 
-  <body>
-    <!-- CONTAINER -->
-    <div class="bg-gray-800 min-h-screen relative">
-      <!-- HEADER -->
-      <header class="header bg-gray-900 sticky top-0">
-        <div class="header-inner">
-          <!-- LOGO -->
-          <div class="logo">
-            <a class="text-4xl text-teal-200 font-bold" href="#"> Landify </a>
-          </div>
-          <!-- // LOGO -->
-          <!-- NAVIGATION -->
-          <nav class="header-nav">
-            <a class="inline-block px-4 nav-item active" href="#">Home</a>
-            <a class="inline-block px-4 nav-item" href="#about">About</a>
-            <a class="inline-block px-4 nav-item" href="#features">Features</a>
-            <a class="inline-block px-4 nav-item" href="#contact">Contact</a>
-          </nav>
-          <!-- // NAVIGATION -->
-          <!-- MOBILE NAVIGATION BUTTON -->
-          <button class="mobile-btn block md:hidden text-teal-200">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-10 w-10"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor"
-              stroke-width="2"
-            >
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                d="M4 6h16M4 12h16m-7 6h7"
-              />
-            </svg>
-          </button>
-          <!-- // MOBILE NAVIGATION BUTTON -->
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Landify</title>
+</head>
+
+<body>
+  <!-- CONTAINER -->
+  <div class="bg-gray-800 min-h-screen relative">
+    <!-- HEADER -->
+    <header class="header bg-gray-900 sticky top-0">
+      <div class="header-inner">
+        <!-- LOGO -->
+        <div class="logo">
+          <a class="text-4xl text-teal-200 font-bold" href="#"> Landify </a>
         </div>
-        <!-- MOBILE MENU -->
-        <nav class="mobile-nav">
-          <a class="block py-4 nav-item" href="#">Home</a>
-          <a class="block py-4 nav-item" href="#about">About</a>
-          <a class="block py-4 nav-item" href="#features">Features</a>
-          <a class="block py-4 nav-item" href="#contact">Contact</a>
+        <!-- // LOGO -->
+        <!-- NAVIGATION -->
+        <nav class="header-nav">
+          <a class="inline-block px-4 nav-item active" href="#">Home</a>
+          <a class="inline-block px-4 nav-item" href="#about">About</a>
+          <a class="inline-block px-4 nav-item" href="#features">Features</a>
+          <a class="inline-block px-4 nav-item" href="#contact">Contact</a>
         </nav>
-        <!-- // MOBILE MENU -->
-      </header>
-      <!-- // HEADER -->
-      <!-- MAIN -->
-      <main class="main">
-        <!-- HERO SECTION -->
-        <section class="hero text-white" id="home">
-          <div
-            class="section-inner min-h-[650px] flex flex-col justify-center items-center text-center"
-          >
-            <h1 class="text-6xl md:text-8xl mb-6 font-bold">Welcome!</h1>
-            <p class="text-lg md:text-2xl text-teal-200 mb-12 font-semibold">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
-              incidunt.
-            </p>
-            <div class="flex flex-col sm:flex-row sm:space-x-4 text-xl">
-              <button class="cta--primary mb-3 sm:mb-0">
-                <span>Buy now</span>
-              </button>
-              <button class="cta--secondary">Learn more</button>
-            </div>
+        <!-- // NAVIGATION -->
+        <!-- MOBILE NAVIGATION BUTTON -->
+        <button class="mobile-btn block md:hidden text-teal-200">
+          <svg xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"
+            stroke="currentColor" stroke-width="2">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16m-7 6h7" />
+          </svg>
+        </button>
+        <!-- // MOBILE NAVIGATION BUTTON -->
+      </div>
+      <!-- MOBILE MENU -->
+      <nav class="mobile-nav">
+        <a class="block py-4 nav-item" href="#">Home</a>
+        <a class="block py-4 nav-item" href="#about">About</a>
+        <a class="block py-4 nav-item" href="#features">Features</a>
+        <a class="block py-4 nav-item" href="#contact">Contact</a>
+      </nav>
+      <!-- // MOBILE MENU -->
+    </header>
+    <!-- // HEADER -->
+    <!-- MAIN -->
+    <main class="main">
+      <!-- HERO SECTION -->
+      <section class="hero text-white" id="home">
+        <div class="section-inner min-h-[650px] flex flex-col justify-center items-center text-center">
+          <h1 class="text-6xl md:text-8xl mb-6 font-bold">Welcome!</h1>
+          <p class="text-lg md:text-2xl text-teal-200 mb-12 font-semibold">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet,
+            incidunt.
+          </p>
+          <div class="flex flex-col sm:flex-row sm:space-x-4 text-xl">
+            <button class="cta--primary mb-3 sm:mb-0">
+              <span>Buy now</span>
+            </button>
+            <button class="cta--secondary">Learn more</button>
           </div>
-        </section>
-        <!-- // HERO SECTION -->
-        <!-- TEXT CENTER -->
-        <section class="text-center py-12" id="about">
-          <div class="section-inner">
-            <h2 class="headline--primary">About us</h2>
-            <p class="copy">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              sapiente ex optio id eum asperiores suscipit, hic rerum deleniti
-              quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam
-              minima unde doloribus culpa ipsa maiores nobis accusantium. Ipsum
-              ipsam voluptates harum maxime facere. Voluptatem, similique.
-            </p>
-          </div>
-        </section>
-        <!-- // TEXT CENTER -->
-        <!-- IMG LEFT -->
-        <section class="pb-12">
-          <div class="section-inner two-cols two-cols--img-left">
-            <div class="w-full md:w-1/2">
-              <img
-                class="rounded-lg"
-                src="./src/img/conference.jpg"
-                alt="Image 1"
-              />
-            </div>
-            <div class="w-full md:w-1/2 ml-4">
-              <h3 class="headline--secondary">Image left</h3>
-              <p class="copy">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consectetur obcaecati minima iusto voluptatibus necessitatibus!
-                Enim laboriosam, ratione labore iure nostrum pariatur dolorem
-                mollitia quia, odit eum fuga, dignissimos aspernatur. Eius
-                temporibus incidunt dignissimos voluptates aspernatur impedit
-                quod ea, nisi nihil.
-              </p>
-            </div>
-          </div>
-        </section>
-        <!-- // IMG LEFT -->
-        <!-- IMG RIGHT -->
-        <section>
-          <div class="section-inner two-cols two-cols--img-right">
-            <div class="w-full md:w-1/2">
-              <img class="rounded-lg" src="./src/img/code.jpg" alt="Image 1" />
-            </div>
-            <div class="w-full md:w-1/2 mr-4">
-              <h3 class="headline--secondary">Image right</h3>
-              <p class="copy">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consectetur obcaecati minima iusto voluptatibus necessitatibus!
-                Enim laboriosam, ratione labore iure nostrum pariatur dolorem
-                mollitia quia, odit eum fuga, dignissimos aspernatur. Eius
-                temporibus incidunt dignissimos voluptates aspernatur impedit
-                quod ea, nisi nihil.
-              </p>
-            </div>
-          </div>
-        </section>
-        <!-- // IMG RIGHT -->
-        <!-- TEXT CENTER -->
-        <section class="text-center py-12" id="features">
-          <div class="section-inner">
-            <h2 class="headline--primary">Features</h2>
-            <p class="copy">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              sapiente ex optio id eum asperiores suscipit, hic rerum deleniti
-              quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam
-              minima unde doloribus culpa ipsa maiores nobis accusantium. Ipsum
-              ipsam voluptates harum maxime facere. Voluptatem, similique.
-            </p>
-          </div>
-        </section>
-        <!-- // TEXT CENTER -->
-        <!-- FEATURES -->
-        <section>
-          <div class="section-inner three-cols items-center">
-            <!-- CARD 1 -->
-            <div class="feature-card">
-              <figure class="mb-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-48 w-48 mx-auto text-teal-100"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  />
-                </svg>
-              </figure>
-              <h4 class="text-2xl mb-2 text-teal-200 font-bold">
-                Best practices
-              </h4>
-              <p class="text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
-                incidunt? Quam, rem. Sint dicta eaque incidunt?
-              </p>
-            </div>
-            <!-- // CARD 1 -->
-            <!-- CARD 2 -->
-            <div class="feature-card">
-              <figure class="mb-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-48 w-48 mx-auto text-teal-100"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z"
-                  />
-                </svg>
-              </figure>
-              <h4 class="text-2xl mb-2 text-teal-200 font-bold">Responsive</h4>
-              <p class="text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
-                incidunt? Quam, rem. Sint dicta eaque incidunt?
-              </p>
-            </div>
-            <!-- // CARD 2 -->
-            <!-- CARD 3 -->
-            <div class="feature-card">
-              <figure class="mb-3">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-48 w-48 mx-auto text-teal-100"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  stroke="currentColor"
-                  stroke-width="2"
-                >
-                  <path
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
-                  />
-                </svg>
-              </figure>
-              <h4 class="text-2xl mb-2 text-teal-200 font-bold">Secure</h4>
-              <p class="text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
-                incidunt? Quam, rem. Sint dicta eaque incidunt?
-              </p>
-            </div>
-            <!-- CARD 3 -->
-          </div>
-        </section>
-        <!-- // FEATURES -->
-        <!-- TEXT CENTER -->
-        <section class="text-center py-12" id="contact">
-          <div class="section-inner">
-            <h2 class="headline--primary">Contact us</h2>
-            <p class="copy">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
-              sapiente ex optio id eum asperiores suscipit, hic rerum deleniti
-              quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam
-              minima unde doloribus culpa ipsa maiores nobis accusantium. Ipsum
-              ipsam voluptates harum maxime facere. Voluptatem, similique.
-            </p>
-          </div>
-        </section>
-        <!-- // TEXT CENTER -->
-        <!-- IMG LEFT WITH CTA -->
-        <section>
-          <div class="section-inner two-cols two-cols--img-left">
-            <div class="w-full md:w-1/2">
-              <img class="rounded-lg" src="./src/img/phone.jpg" alt="Image 1" />
-            </div>
-            <div class="w-full md:w-1/2 ml-4">
-              <h3 class="headline--secondary">Image right with CTA</h3>
-              <p class="copy mb-8">
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Consectetur obcaecati minima iusto voluptatibus necessitatibus!
-                Enim laboriosam, ratione labore iure nostrum pariatur dolorem
-                mollitia quia, odit eum fuga, dignissimos aspernatur.
-              </p>
-              <button class="cta--primary flex items-center">
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  class="h-5 w-5"
-                  viewBox="0 0 20 20"
-                  fill="currentColor"
-                >
-                  <path
-                    d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z"
-                  />
-                </svg>
-                <span class="ml-2">Contact us</span>
-              </button>
-            </div>
-          </div>
-        </section>
-        <!-- // IMG LEFT WITH CTA -->
-      </main>
-      <!-- // MAIN -->
-      <!-- FOOTER -->
-      <footer class="footer bg-gray-900 mt-12 text-gray-400 text-lg">
-        <div class="container lg:max-w-6xl mx-auto py-4 px-8">
-          <div class="logo mb-8">
-            <a class="text-4xl text-teal-200 font-bold" href="#"> Landify </a>
-          </div>
-          <div class="three-cols">
-            <div class="w-full md:w-1/3 mb-4 md:mb-0">
-              <h3 class="text-2xl font-semibold text-teal-100 mb-3">
-                Get in touch
-              </h3>
-              <form action="#">
-                <label for="email" class="block mb-3">
-                  Sign up for our newsletter to hear from us!
-                </label>
-                <input
-                  type="text"
-                  placeholder="Email"
-                  class="bg-transparent border border-transparent border-b-teal-200 py-2"
-                />
-                <button
-                  class="bg-teal-200 text-black uppercase px-6 py-2 font-semibold mb-3 sm:mb-0 text-xl border border-teal-200"
-                >
-                  <span>&gt;</span>
-                </button>
-              </form>
-            </div>
-            <div class="w-full md:w-1/3 mb-4 md:mb-0">
-              <h3 class="text-2xl font-semibold text-teal-100 mb-3">
-                Follow us
-              </h3>
-
-              <div class="flex space-x-4">
-                <a href="#">
-                  <svg
-                    class="fill-gray-400 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"
-                    />
-                  </svg>
-                </a>
-
-                <a href="#">
-                  <svg
-                    class="fill-gray-400 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 512 512"
-                  >
-                    <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"
-                    />
-                  </svg>
-                </a>
-                <a href="#">
-                  <svg
-                    class="fill-gray-400 w-8"
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 448 512"
-                  >
-                    <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
-                    <path
-                      d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z"
-                    />
-                  </svg>
-                </a>
-              </div>
-            </div>
-            <div class="w-full md:w-1/3">
-              <h3 class="text-2xl font-semibold text-teal-100 mb-3">
-                Site Map
-              </h3>
-              <nav>
-                <nav class="footer-nav">
-                  <a class="block" href="#">Home</a>
-                  <a class="block" href="#about">About</a>
-                  <a class="block" href="#features">Features</a>
-                  <a class="block" href="#contact">Contact</a>
-                </nav>
-              </nav>
-            </div>
-          </div>
-          <div class="py-4 text-center">&copy; 2022 Adam Wojnicki</div>
         </div>
-      </footer>
-      <!-- // FOOTER -->
-    </div>
-    <!-- // CONTAINER -->
-    <script type="module" src="/src/main.ts"></script>
-  </body>
+      </section>
+      <!-- // HERO SECTION -->
+      <!-- TEXT CENTER -->
+      <section class="text-center py-12" id="about">
+        <div class="section-inner">
+          <h2 class="headline--primary">About us</h2>
+          <p class="copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente ex optio id eum asperiores suscipit, hic rerum deleniti
+            quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam
+            minima unde doloribus culpa ipsa maiores nobis accusantium. Ipsum
+            ipsam voluptates harum maxime facere. Voluptatem, similique.
+          </p>
+        </div>
+      </section>
+      <!-- // TEXT CENTER -->
+      <!-- IMG LEFT -->
+      <section class="pb-12">
+        <div class="section-inner two-cols two-cols--img-left">
+          <div class="w-full md:w-1/2">
+            <img class="rounded-lg" src="./src/img/conference.jpg" alt="Image 1" />
+          </div>
+          <div class="w-full md:w-1/2 ml-4">
+            <h3 class="headline--secondary">Image left</h3>
+            <p class="copy">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur obcaecati minima iusto voluptatibus necessitatibus!
+              Enim laboriosam, ratione labore iure nostrum pariatur dolorem
+              mollitia quia, odit eum fuga, dignissimos aspernatur. Eius
+              temporibus incidunt dignissimos voluptates aspernatur impedit
+              quod ea, nisi nihil.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- // IMG LEFT -->
+      <!-- IMG RIGHT -->
+      <section>
+        <div class="section-inner two-cols two-cols--img-right">
+          <div class="w-full md:w-1/2">
+            <img class="rounded-lg" src="./src/img/code.jpg" alt="Image 1" />
+          </div>
+          <div class="w-full md:w-1/2 mr-4">
+            <h3 class="headline--secondary">Image right</h3>
+            <p class="copy">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur obcaecati minima iusto voluptatibus necessitatibus!
+              Enim laboriosam, ratione labore iure nostrum pariatur dolorem
+              mollitia quia, odit eum fuga, dignissimos aspernatur. Eius
+              temporibus incidunt dignissimos voluptates aspernatur impedit
+              quod ea, nisi nihil.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- // IMG RIGHT -->
+      <!-- TEXT CENTER -->
+      <section class="text-center py-12" id="features">
+        <div class="section-inner">
+          <h2 class="headline--primary">Features</h2>
+          <p class="copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente ex optio id eum asperiores suscipit, hic rerum deleniti
+            quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam
+            minima unde doloribus culpa ipsa maiores nobis accusantium. Ipsum
+            ipsam voluptates harum maxime facere. Voluptatem, similique.
+          </p>
+        </div>
+      </section>
+      <!-- // TEXT CENTER -->
+      <!-- FEATURES -->
+      <section>
+        <div class="section-inner three-cols items-center">
+          <!-- CARD 1 -->
+          <div class="feature-card">
+            <figure class="mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 mx-auto text-teal-100" viewBox="0 0 20 20"
+                fill="currentColor">
+                <path fill-rule="evenodd"
+                  d="M12.316 3.051a1 1 0 01.633 1.265l-4 12a1 1 0 11-1.898-.632l4-12a1 1 0 011.265-.633zM5.707 6.293a1 1 0 010 1.414L3.414 10l2.293 2.293a1 1 0 11-1.414 1.414l-3-3a1 1 0 010-1.414l3-3a1 1 0 011.414 0zm8.586 0a1 1 0 011.414 0l3 3a1 1 0 010 1.414l-3 3a1 1 0 11-1.414-1.414L16.586 10l-2.293-2.293a1 1 0 010-1.414z"
+                  clip-rule="evenodd" />
+              </svg>
+            </figure>
+            <h4 class="text-2xl mb-2 text-teal-200 font-bold">
+              Best practices
+            </h4>
+            <p class="text-gray-400">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+              incidunt? Quam, rem. Sint dicta eaque incidunt?
+            </p>
+          </div>
+          <!-- // CARD 1 -->
+          <!-- CARD 2 -->
+          <div class="feature-card">
+            <figure class="mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 mx-auto text-teal-100" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M12 18h.01M8 21h8a2 2 0 002-2V5a2 2 0 00-2-2H8a2 2 0 00-2 2v14a2 2 0 002 2z" />
+              </svg>
+            </figure>
+            <h4 class="text-2xl mb-2 text-teal-200 font-bold">Responsive</h4>
+            <p class="text-gray-400">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+              incidunt? Quam, rem. Sint dicta eaque incidunt?
+            </p>
+          </div>
+          <!-- // CARD 2 -->
+          <!-- CARD 3 -->
+          <div class="feature-card">
+            <figure class="mb-3">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-48 w-48 mx-auto text-teal-100" fill="none"
+                viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
+                <path stroke-linecap="round" stroke-linejoin="round"
+                  d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </figure>
+            <h4 class="text-2xl mb-2 text-teal-200 font-bold">Secure</h4>
+            <p class="text-gray-400">
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sequi,
+              incidunt? Quam, rem. Sint dicta eaque incidunt?
+            </p>
+          </div>
+          <!-- CARD 3 -->
+        </div>
+      </section>
+      <!-- // FEATURES -->
+      <!-- TEXT CENTER -->
+      <section class="text-center py-12" id="contact">
+        <div class="section-inner">
+          <h2 class="headline--primary">Contact us</h2>
+          <p class="copy">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
+            sapiente ex optio id eum asperiores suscipit, hic rerum deleniti
+            quis, fuga veniam ducimus quasi iste ipsam quidem tempora? Aperiam
+            minima unde doloribus culpa ipsa maiores nobis accusantium. Ipsum
+            ipsam voluptates harum maxime facere. Voluptatem, similique.
+          </p>
+        </div>
+      </section>
+      <!-- // TEXT CENTER -->
+      <!-- IMG LEFT WITH CTA -->
+      <section>
+        <div class="section-inner two-cols two-cols--img-left">
+          <div class="w-full md:w-1/2">
+            <img class="rounded-lg" src="./src/img/phone.jpg" alt="Image 1" />
+          </div>
+          <div class="w-full md:w-1/2 ml-4">
+            <h3 class="headline--secondary">Image right with CTA</h3>
+            <p class="copy mb-8">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Consectetur obcaecati minima iusto voluptatibus necessitatibus!
+              Enim laboriosam, ratione labore iure nostrum pariatur dolorem
+              mollitia quia, odit eum fuga, dignissimos aspernatur.
+            </p>
+            <button class="cta--primary flex items-center">
+              <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" viewBox="0 0 20 20" fill="currentColor">
+                <path
+                  d="M2 3a1 1 0 011-1h2.153a1 1 0 01.986.836l.74 4.435a1 1 0 01-.54 1.06l-1.548.773a11.037 11.037 0 006.105 6.105l.774-1.548a1 1 0 011.059-.54l4.435.74a1 1 0 01.836.986V17a1 1 0 01-1 1h-2C7.82 18 2 12.18 2 5V3z" />
+              </svg>
+              <span class="ml-2">Contact us</span>
+            </button>
+          </div>
+        </div>
+      </section>
+      <!-- // IMG LEFT WITH CTA -->
+    </main>
+    <!-- // MAIN -->
+    <!-- FOOTER -->
+    <footer class="footer bg-gray-900 mt-12 text-gray-400 text-lg">
+      <div class="section-inner">
+        <div class="logo mb-8">
+          <a class="text-4xl text-teal-200 font-bold" href="#"> Landify </a>
+        </div>
+        <div class="three-cols">
+          <div class="w-full md:w-1/3 mb-4 md:mb-0">
+            <h3 class="footer-subheadline">
+              Get in touch
+            </h3>
+            <form action="#">
+              <label for="email" class="block mb-3">
+                Sign up for our newsletter to hear from us!
+              </label>
+              <input type="text" placeholder="Email"
+                class="bg-transparent border border-transparent border-b-teal-200 py-2" />
+              <button
+                class="bg-teal-200 text-black uppercase px-6 py-2 font-semibold mb-3 sm:mb-0 text-xl border border-teal-200">
+                <span>&gt;</span>
+              </button>
+            </form>
+          </div>
+          <div class="w-full md:w-1/3 mb-4 md:mb-0">
+            <h3 class="footer-subheadline">
+              Follow us
+            </h3>
+
+            <div class="flex space-x-4">
+              <a href="#">
+                <svg class="fill-gray-400 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z" />
+                </svg>
+              </a>
+
+              <a href="#">
+                <svg class="fill-gray-400 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                  <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z" />
+                </svg>
+              </a>
+              <a href="#">
+                <svg class="fill-gray-400 w-8" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                  <!--! Font Awesome Pro 6.1.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+                  <path
+                    d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+                </svg>
+              </a>
+            </div>
+          </div>
+          <div class="w-full md:w-1/3">
+            <h3 class="footer-subheadline">
+              Site Map
+            </h3>
+            <nav>
+              <nav class="footer-nav">
+                <a class="block" href="#">Home</a>
+                <a class="block" href="#about">About</a>
+                <a class="block" href="#features">Features</a>
+                <a class="block" href="#contact">Contact</a>
+              </nav>
+            </nav>
+          </div>
+        </div>
+        <div class="py-4 text-center">&copy; 2022 Adam Wojnicki</div>
+      </div>
+    </footer>
+    <!-- // FOOTER -->
+  </div>
+  <!-- // CONTAINER -->
+  <script type="module" src="/src/main.ts"></script>
+</body>
+
 </html>
