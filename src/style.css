@@ -51,7 +51,7 @@ body {
     @apply text-xl hidden md:block;
   }
   .mobile-nav {
-    @apply text-2xl py-4 text-center hidden md:hidden;
+    @apply text-2xl py-4 text-center md:hidden;
   }
   /* NAV ITEMS */
   .nav-item {
