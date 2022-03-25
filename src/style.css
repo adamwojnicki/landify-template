@@ -14,6 +14,7 @@ body {
   background: url("./img/space.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 /* COMPONENT STYLES */
