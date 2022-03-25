@@ -14,14 +14,66 @@ body {
   background: url("./img/space.jpg");
   background-size: cover;
   background-position: center;
+  background-attachment: fixed;
 }
 
 /* COMPONENT STYLES */
 @layer components {
+  /* SECTION LAYOUT */
+  .header-inner {
+    @apply container lg:max-w-6xl mx-auto flex items-center justify-between py-4 px-4;
+  }
+  .section-inner {
+    @apply container lg:max-w-6xl mx-auto py-4 px-4;
+  }
+  .two-cols {
+    @apply flex flex-col items-center;
+  }
+  .two-cols--img-right {
+    @apply md:flex-row-reverse;
+  }
+  .two-cols--img-left {
+    @apply md:flex-row;
+  }
+  .three-cols {
+    @apply flex flex-col md:flex-row md:space-x-12;
+  }
+  /* NAV */
+  .header-nav {
+    @apply text-xl hidden md:block;
+  }
+  .mobile-nav {
+    @apply text-2xl py-4 text-center hidden md:hidden;
+  }
+  /* NAV ITEMS */
   .nav-item {
-    @apply text-gray-400;
+    @apply text-white;
   }
   .nav-item.active {
-    @apply text-teal-200 underline;
+    @apply text-teal-200 underline font-semibold;
+  }
+  /* CTAS */
+  .cta--primary {
+    @apply bg-teal-200 text-black uppercase px-6 py-2 rounded-full font-semibold;
+  }
+  .cta--secondary {
+    @apply underline font-semibold;
+  }
+  /* FEATURE CARD */
+  .feature-card {
+    @apply max-w-sm md:w-1/3 mb-8 text-center md:mb-0;
+  }
+  /* TYPOGRAPHY */
+  .headline--primary {
+    @apply text-white text-4xl md:text-6xl font-bold mb-6;
+  }
+  .headline--secondary {
+    @apply text-3xl font-bold lg:text-5xl mb-8 text-teal-200;
+  }
+  .copy {
+    @apply lg:text-lg text-gray-400;
+  }
+  .footer-subheadline {
+    @apply text-2xl font-semibold text-teal-100 mb-3;
   }
 }
