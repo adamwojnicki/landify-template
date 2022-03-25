@@ -27,10 +27,10 @@ body {
     @apply container lg:max-w-6xl mx-auto py-4 px-4;
   }
   .two-cols {
-    @apply flex flex-col items-center;
+    @apply flex flex-col items-center md:space-x-6 lg:space-x-12;
   }
   .two-cols--img-right {
-    @apply md:flex-row-reverse;
+    @apply md:flex-row-reverse space-x-reverse;
   }
   .two-cols--img-left {
     @apply md:flex-row;
