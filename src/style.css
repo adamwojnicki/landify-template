@@ -22,6 +22,9 @@ body {
 @media screen and (max-width: 768px) {
   .hero {
     background: url("./img/space-mob.webp");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
   }
 }
 
