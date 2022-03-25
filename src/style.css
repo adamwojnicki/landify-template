@@ -19,6 +19,11 @@ body {
   background-position: center;
   background-attachment: fixed;
 }
+@media screen and (max-width: 768px) {
+  .hero {
+    background: url("./img/space-mob.webp");
+  }
+}
 
 /* COMPONENT STYLES */
 @layer components {
